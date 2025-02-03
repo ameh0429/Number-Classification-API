@@ -253,7 +253,7 @@ https://3zjuhtikq8.execute-api.us-east-1.amazonaws.com/api/classify-number?numbe
 ```
 Expected JSON Output
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hko1hc9r8dlyf8fm6fkn.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3i4q51qexvp8inubphq9.png)
 
 
 ### Enable CORS in API Gateway
