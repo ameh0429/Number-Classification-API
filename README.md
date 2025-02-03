@@ -1,4 +1,4 @@
-# Number-Classification-API
+# Building a Number Classification API. MY Stage 1 Task.
 ## Overview
 
 The Number Classification API is a simple HTTP API that classifies numbers based on their mathematical properties. The API is publicly accessible and deployed using AWS Lambda and API Gateway making it serverless, cost-efficient, and scalable.
