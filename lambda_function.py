@@ -28,21 +28,25 @@ def get_fun_fact(n):
 
 def lambda_handler(event, context):
     try:
+        # Extract query parameters
         query_params = event.get("queryStringParameters", {})
-        num = query_params.get("number", "")
+        num_str = query_params.get("number", "")
 
-        if not num.isdigit():
+        # Validate input: number must be a valid integer
+        if not num_str.isdigit():
             return {
                 "statusCode": 400,
                 "headers": {
                     "Content-Type": "application/json",
                     "Access-Control-Allow-Origin": "*"
                 },
-                "body": json.dumps({"number": num, "error": True})
+                "body": json.dumps({"number": num_str, "error": True})
             }
 
-        num = int(num)
+        # Convert number to integer
+        num = int(num_str)
 
+        # Construct response data
         response = {
             "number": num,
             "is_prime": is_prime(num),
