@@ -9,13 +9,16 @@ The Number Classification API is a simple HTTP API that classifies numbers based
 - JSON-based responses.
 - CORS enabled for public access.
 
+## Architecture Diagram
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b2liu5x419b8f3v6l8fd.png)
+
 ## Deployment
 This API is deployed using:
 - AWS Lambda for serverless execution.
 - API Gateway for exposing the endpoint.
 - GitHub for version control.
 
-- Technologies Used
+## Technologies Used
 - Python (Lambda function)
 - AWS Lambda (Serverless execution)
 - API Gateway (Public API exposure)
